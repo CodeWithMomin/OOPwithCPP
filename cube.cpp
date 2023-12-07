@@ -8,7 +8,7 @@ int main()
     int n,i,cube=1;
     cout<<"Enter an integer:" ;
     cin>>n;
-    while(i<n)
+    while(i<=n)
     {
         cube=i*i*i;
         cout<<cube<<endl;
