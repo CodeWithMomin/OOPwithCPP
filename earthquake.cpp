@@ -16,7 +16,9 @@ int main()
     cout<<"Serious Damage: Walls may crack or fall"<<endl;
     else if(n>6.5 && n<=7.5)
     cout<<"Disaster: Houses and Buildings may collapse"<<endl;
-    else
+    else if(n>7.5 && n<=12.5)
     cout<<"Catastrophe: Most of the Buildings destroyed"<<endl;
+    else
+    cout<<"Invalid input, Not possible";
     
 }
