@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-    int n,i,cube=1;
+    int n,i=0,cube=1;
     cout<<"Enter an integer:" ;
     cin>>n;
     while(i<=n)
