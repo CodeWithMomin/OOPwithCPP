@@ -19,7 +19,7 @@ int main()
 
     if (ans)
     {
-        cout << "The two numbers are equal";
+        cout << "The two numbers are equal.";
     }
     else if (!ans)
     {
