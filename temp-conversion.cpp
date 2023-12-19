@@ -8,10 +8,10 @@ Fahrenheit.*/
 using namespace std;
 
 int main(){
-	float celcius, fahrenheit;
+	float celsius, fahrenheit;
 	cout << "Enter temperature in Celcius: ";
-	cin >> celcius;
-	fahrenheit = (celcius * 9 / 5) + 32;
-	cout << celcius << "C is equivalent to " << fahrenheit << "F" << endl;
+	cin >> celsius;
+	fahrenheit = (celsius * 9 / 5) + 32;
+	cout << celsius << "C is equivalent to " << fahrenheit << "F" << endl;
 	return 0;
 }
